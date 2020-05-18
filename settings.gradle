@@ -1,0 +1,2 @@
+rootProject.name='Ram-NycSchoolsApp'
+include ':app'

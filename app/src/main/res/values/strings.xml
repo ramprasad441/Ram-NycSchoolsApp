@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyNYCSchools</string>
+    <string name="number_of_schools_colon">Number of Schools:</string>
+    <string name="school_name">School Name</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="school_detail">School Detail</string>
+    <string name="test_taker">Test Taker</string>
+    <string name="average_score">Average Score</string>
+    <string name="math_average_score">Math Average Score</string>
+</resources>

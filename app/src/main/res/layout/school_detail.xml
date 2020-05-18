@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.ramprasad.nycschools.viewmodel.SchoolsDetailViewModel" />
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/received_school"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/school_detail"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/test_taker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/test_taker"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/received_school"/>
+
+    <TextView
+        android:id="@+id/avg_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/average_score"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/test_taker"/>
+
+    <TextView
+        android:id="@+id/maths_avg_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/math_average_score"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/avg_score"/>
+
+    <TextView
+        android:id="@+id/text_dbn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/math_average_score"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/maths_avg_score"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</layout>
